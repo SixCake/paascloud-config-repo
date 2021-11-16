@@ -71,6 +71,7 @@ spring:
     sampler:
       percentage: 0.2
 
+
 feign:
   hystrix:
     enabled: true
