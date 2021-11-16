@@ -19,7 +19,7 @@ spring:
     password: guest
   redis:
     host: paascloud-db-redis
-    password: paascloud@redis
+    password: foobared
     port: 6379
     timeout: 0
   datasource:
@@ -98,11 +98,6 @@ hystrix:
         isolation:
           thread:
             timeoutInMilliseconds: 20000
-
-info:
-  软件著作权: paascloud快速搭建企业级分布式微服务平台
-  著作登记号: 2018SR320076
-  关于我们: http://paascloud.net
 
 paascloud:
   auth:
